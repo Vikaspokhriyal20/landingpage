@@ -1,0 +1,132 @@
+*
+{
+    box-sizing: border-box;
+    font-family:'Arya';
+    margin: 0;
+    padding: 0;
+
+}
+
+
+#main
+{
+    width: 90%;
+    height: 80vh;
+    background-color: rgb(211, 124, 124);
+    margin: 100px auto 50px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  
+}
+
+.item-1
+{
+    background-color: aliceblue;
+    display: grid;
+    gap: 10px;
+    justify-content: start;
+    align-items: center;
+}
+
+.content
+{
+    padding: 12px;
+    
+}
+.content h2
+{
+    margin-block: 10px;
+}
+.content p
+{
+    font-size: 15px;
+   
+}
+
+#coming-btn
+{
+    border: none;
+    outline: none;
+    padding: 10px 10px;
+    font-size: 16px;
+    background-color: yellow;
+    margin-block: 10px;
+    border-radius: 4px;
+}
+
+.item-2
+{
+    /* background: yellow; */
+    display: grid;
+   
+}
+
+.child-1
+{
+    background-color: darkorchid;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    background-image: url(https://images.unsplash.com/photo-1628744404730-5e143358539b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8Z2FsYXh5JTIweiUyMGZvbGR8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=1000&q=60);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+   
+}
+
+.child-2
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    text-align: center;
+}
+
+.last-child-1
+{
+    background-color: red;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    background-image: url(https://images.unsplash.com/photo-1592813491527-b34ff452c600?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fHNhbXN1bmclMjBmb2xkfGVufDB8fDB8fHww&auto=format&fit=crop&w=1000&q=60);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+#lastbox-1
+{
+    position: absolute;
+    left: 10px;
+    bottom: 10px;
+    background-color:white;
+    color: black;
+    padding: 4px;
+    border-radius: 4px;
+    font-size: 14px;
+
+
+}
+
+.last-child-2
+{
+    background-color: aqua;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    background-image: url(https://images.unsplash.com/photo-1655803266614-93c6cd4040f6?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjB8fHNhbXN1bmclMjBmb2xkfGVufDB8fDB8fHww&auto=format&fit=crop&w=1000&q=60);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+   
+}
+
+@media screen and (max-width:760px) {
+    #main
+    {
+        grid-template-columns: 1fr;
+        height: 100vh;
+    }
+}
+
