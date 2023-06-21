@@ -27,8 +27,20 @@
     gap: 10px;
     /* justify-content: center; */
     align-items: center;
+    position: relative;
    
 }
+
+.item-1 img
+{
+   filter: invert();
+   width: 50px;
+   position: absolute;
+   top: 15px;
+   left: 25px;
+  
+}
+
 
 .content
 {
